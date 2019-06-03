@@ -68,7 +68,7 @@ build:
         name: integration-run
         cwd: test/StatlerWaldorfCorp.RealityService.Tests.Integration
         code: |            
-            cp appsettings.json bin/Debug/netcoreapp1.1
+            cp appsettings.json bin/Debug/netcoreapp2.2
             export REDIS__CONFIGSTRING=$REDISCACHE_PORT_6379_TCP_ADDR            
             dotnet test    
 
